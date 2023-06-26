@@ -1,0 +1,17 @@
+# Python Libraries
+
+Scapy 
+Cryptography
+Request
+Python-nmap
+pylibnet
+paramiko
+impacket
+rawsocket py
+pwntools
+faker
+twisted
+
+
+#dictionary - {}
+#list - []
