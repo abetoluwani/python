@@ -32,7 +32,8 @@ with open("names.txt","a") as file :
 with open("names.txt","r") as files:
     lines = files.readlines()
     line = sorted(lines) # sorting what's in the file before iterating over it
-
+    # line = sorted(lines, reverse=True) this would sort the input in a descending order
 for j in line:
     # print("Hello,",line,end="") # First Method
     print("Hello,",j.rstrip()) #2nd rstrip() would strip off all new lines in the file
+
